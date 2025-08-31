@@ -37,7 +37,7 @@ int solve(vector<job>&jobs,int n)
 int main()
 {
     vector<job>jobs;
-    memset(dp,0,sizeof(dp));
+    memset(dp,-1,sizeof(dp));
     int n;
     cout<<"enter the number of jobs:"<<endl;
     cin>>n;
@@ -54,5 +54,6 @@ int main()
     });
 
     int ans = solve(jobs,n);
+    cout<<"the maximum weight of the jobs is:"<<ans<<endl;
     
 }
