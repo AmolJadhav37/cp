@@ -1,5 +1,15 @@
 //JAI SHRI RAM
 //weighted interval scheduling
+
+/*
+Should i be 
+grateful or 
+regretful for 
+still being in 
+love with those 
+eyes which
+gifted me tears
+*/
 #include<bits/stdc++.h>
 using namespace std;
 const int N = 10e5+1;
