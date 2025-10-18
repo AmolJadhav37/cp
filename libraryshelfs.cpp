@@ -25,7 +25,8 @@ int solve(int i , vector<vector<int>>&books,int remaining_width,int maxH)
 
     return dp[i][remaining_width] = min(keep,skip);
 }
-int main() {
+int main() { 
+    
     memset(dp,-1,sizeof(dp));
    cout<<"enter number of books:";
    cin>>n;
